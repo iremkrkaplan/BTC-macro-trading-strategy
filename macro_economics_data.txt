@@ -1,0 +1,87 @@
+events = {
+    'Unemployment': [
+        {'date': '2025-10-10', 'actual': None, 'forecast': 4.3, 'previous': 4.3, 'direction': 'neutral'},
+        {'date': '2025-09-05', 'actual': 4.3, 'forecast': 4.3, 'previous': 4.2, 'direction': 'increase'},
+        {'date': '2025-08-01', 'actual': 4.2, 'forecast': 4.2, 'previous': 4.1, 'direction': 'increase'},
+        {'date': '2025-07-03', 'actual': 4.1, 'forecast': 4.3, 'previous': 4.2, 'direction': 'decrease'},
+        {'date': '2025-06-06', 'actual': 4.2, 'forecast': 4.2, 'previous': 4.2, 'direction': 'neutral'},
+        {'date': '2025-05-02', 'actual': 4.2, 'forecast': 4.2, 'previous': 4.2, 'direction': 'neutral'},
+        {'date': '2025-04-04', 'actual': 4.2, 'forecast': 4.1, 'previous': 4.1, 'direction': 'increase'},
+        {'date': '2025-03-07', 'actual': 4.1, 'forecast': 4.0, 'previous': 4.0, 'direction': 'increase'},
+        {'date': '2025-02-07', 'actual': 4.0, 'forecast': 4.1, 'previous': 4.1, 'direction': 'decrease'},
+        {'date': '2025-01-10', 'actual': 4.1, 'forecast': 4.2, 'previous': 4.2, 'direction': 'decrease'}
+    ],
+    
+    'Nonfarm_Payrolls': [
+        {'date': '2025-10-10', 'actual': None, 'forecast': 51, 'previous': 22, 'direction': 'increase'},
+        {'date': '2025-09-05', 'actual': 22, 'forecast': 75, 'previous': 79, 'direction': 'decrease'},
+        {'date': '2025-08-01', 'actual': 73, 'forecast': 106, 'previous': -13, 'direction': 'increase'},
+        {'date': '2025-07-03', 'actual': 147, 'forecast': 111, 'previous': 19, 'direction': 'increase'},
+        {'date': '2025-06-06', 'actual': 139, 'forecast': 126, 'previous': 158, 'direction': 'decrease'},
+        {'date': '2025-05-02', 'actual': 177, 'forecast': 138, 'previous': 120, 'direction': 'increase'},
+        {'date': '2025-04-04', 'actual': 228, 'forecast': 137, 'previous': 102, 'direction': 'increase'},
+        {'date': '2025-03-07', 'actual': 151, 'forecast': 159, 'previous': 111, 'direction': 'increase'},
+        {'date': '2025-02-07', 'actual': 143, 'forecast': 169, 'previous': 323, 'direction': 'decrease'},
+        {'date': '2025-01-10', 'actual': 256, 'forecast': 164, 'previous': 261, 'direction': 'decrease'}
+    ],
+    
+    'Jobless_Claims': [
+        {'date': '2025-09-25', 'actual': 1926, 'forecast': 1930, 'previous': 1928, 'direction': 'decrease'},
+        {'date': '2025-09-18', 'actual': 1920, 'forecast': 1950, 'previous': 1927, 'direction': 'decrease'},
+        {'date': '2025-09-11', 'actual': 1939, 'forecast': 1950, 'previous': 1939, 'direction': 'neutral'},
+        {'date': '2025-09-04', 'actual': 1940, 'forecast': 1960, 'previous': 1944, 'direction': 'decrease'},
+        {'date': '2025-08-28', 'actual': 1954, 'forecast': 1970, 'previous': 1961, 'direction': 'decrease'},
+        {'date': '2025-08-21', 'actual': 1972, 'forecast': 1960, 'previous': 1942, 'direction': 'increase'},
+        {'date': '2025-08-14', 'actual': 1953, 'forecast': 1960, 'previous': 1968, 'direction': 'decrease'},
+        {'date': '2025-08-07', 'actual': 1974, 'forecast': 1950, 'previous': 1936, 'direction': 'increase'},
+        {'date': '2025-07-31', 'actual': 1946, 'forecast': 1960, 'previous': 1946, 'direction': 'neutral'},
+        {'date': '2025-07-24', 'actual': 1955, 'forecast': 1960, 'previous': 1951, 'direction': 'increase'},
+        {'date': '2025-07-17', 'actual': 1956, 'forecast': 1970, 'previous': 1954, 'direction': 'increase'},
+        {'date': '2025-07-10', 'actual': 1965, 'forecast': 1980, 'previous': 1955, 'direction': 'increase'},
+        {'date': '2025-07-03', 'actual': 1964, 'forecast': 1960, 'previous': 1964, 'direction': 'neutral'},
+        {'date': '2025-06-26', 'actual': 1974, 'forecast': 1950, 'previous': 1937, 'direction': 'increase'},
+        {'date': '2025-06-18', 'actual': 1945, 'forecast': 1940, 'previous': 1951, 'direction': 'decrease'},
+        {'date': '2025-06-12', 'actual': 1956, 'forecast': 1910, 'previous': 1902, 'direction': 'increase'},
+        {'date': '2025-06-05', 'actual': 1904, 'forecast': 1910, 'previous': 1907, 'direction': 'decrease'},
+        {'date': '2025-05-29', 'actual': 1919, 'forecast': 1890, 'previous': 1893, 'direction': 'increase'},
+        {'date': '2025-05-22', 'actual': 1903, 'forecast': 1890, 'previous': 1867, 'direction': 'increase'},
+        {'date': '2025-05-15', 'actual': 1881, 'forecast': 1890, 'previous': 1872, 'direction': 'increase'},
+        {'date': '2025-05-08', 'actual': 1879, 'forecast': 1890, 'previous': 1908, 'direction': 'decrease'},
+        {'date': '2025-05-01', 'actual': 1916, 'forecast': 1860, 'previous': 1833, 'direction': 'increase'},
+        {'date': '2025-04-24', 'actual': 1841, 'forecast': 1880, 'previous': 1878, 'direction': 'decrease'},
+        {'date': '2025-04-17', 'actual': 1885, 'forecast': 1870, 'previous': 1844, 'direction': 'increase'},
+        {'date': '2025-04-10', 'actual': 1850, 'forecast': 1880, 'previous': 1893, 'direction': 'decrease'},
+        {'date': '2025-04-03', 'actual': 1903, 'forecast': 1860, 'previous': 1847, 'direction': 'increase'},
+        {'date': '2025-03-27', 'actual': 1856, 'forecast': 1890, 'previous': 1881, 'direction': 'decrease'},
+        {'date': '2025-03-20', 'actual': 1892, 'forecast': 1890, 'previous': 1859, 'direction': 'increase'},
+        {'date': '2025-03-13', 'actual': 1870, 'forecast': 1900, 'previous': 1897, 'direction': 'decrease'},
+        {'date': '2025-03-06', 'actual': 1897, 'forecast': 1880, 'previous': 1855, 'direction': 'increase'},
+        {'date': '2025-02-27', 'actual': 1862, 'forecast': 1870, 'previous': 1867, 'direction': 'decrease'},
+        {'date': '2025-02-20', 'actual': 1869, 'forecast': 1870, 'previous': 1845, 'direction': 'increase'},
+        {'date': '2025-02-13', 'actual': 1850, 'forecast': 1880, 'previous': 1886, 'direction': 'decrease'}
+    ],
+    
+    'CPI': [
+        {'date': '2025-10-15', 'actual': None, 'forecast': None, 'previous': 2.9, 'direction': 'neutral'},
+        {'date': '2025-09-11', 'actual': 2.9, 'forecast': 2.9, 'previous': 2.7, 'direction': 'increase'},
+        {'date': '2025-08-12', 'actual': 2.7, 'forecast': 2.8, 'previous': 2.7, 'direction': 'neutral'},
+        {'date': '2025-07-15', 'actual': 2.7, 'forecast': 2.6, 'previous': 2.4, 'direction': 'increase'},
+        {'date': '2025-06-11', 'actual': 2.4, 'forecast': 2.5, 'previous': 2.3, 'direction': 'increase'},
+        {'date': '2025-05-13', 'actual': 2.3, 'forecast': 2.4, 'previous': 2.4, 'direction': 'decrease'},
+        {'date': '2025-04-10', 'actual': 2.4, 'forecast': 2.5, 'previous': 2.8, 'direction': 'decrease'},
+        {'date': '2025-03-12', 'actual': 2.8, 'forecast': 2.9, 'previous': 3.0, 'direction': 'decrease'},
+        {'date': '2025-02-12', 'actual': 3.0, 'forecast': 2.9, 'previous': 2.9, 'direction': 'increase'},
+        {'date': '2025-01-15', 'actual': 2.9, 'forecast': 2.9, 'previous': 2.7, 'direction': 'increase'}
+    ],
+    
+    'Fed_Rate': [
+        {'date': '2025-12-10', 'actual': None, 'forecast': None, 'previous': None, 'direction': 'neutral'},
+        {'date': '2025-10-29', 'actual': None, 'forecast': None, 'previous': 4.25, 'direction': 'neutral'},
+        {'date': '2025-09-17', 'actual': 4.25, 'forecast': 4.25, 'previous': 4.50, 'direction': 'decrease'},
+        {'date': '2025-07-30', 'actual': 4.50, 'forecast': 4.50, 'previous': 4.50, 'direction': 'neutral'},
+        {'date': '2025-06-18', 'actual': 4.50, 'forecast': 4.50, 'previous': 4.50, 'direction': 'neutral'},
+        {'date': '2025-05-07', 'actual': 4.50, 'forecast': 4.50, 'previous': 4.50, 'direction': 'neutral'},
+        {'date': '2025-03-19', 'actual': 4.50, 'forecast': 4.50, 'previous': 4.50, 'direction': 'neutral'},
+        {'date': '2025-01-29', 'actual': 4.50, 'forecast': 4.50, 'previous': 4.50, 'direction': 'neutral'}
+    ]
+}
